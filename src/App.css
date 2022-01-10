@@ -67,7 +67,7 @@
   
   .trash-btn,
   .complete-btn {
-    background: #ff6f47;
+    background: #f31515;
     color: white;
     border: none;
     padding: 1rem;
@@ -75,7 +75,7 @@
     font-size: 1rem;
   }
   .complete-btn {
-    background: rgb(11, 212, 162);
+    background: rgb(91,204,4);
   }
   .todo-item {
     padding: 0rem 0.5rem;
