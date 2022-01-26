@@ -3,6 +3,7 @@ import "./App.css";
 //importing components
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
+import Signup from "./components/Signup";
 
 function App() {
   //State stuff
@@ -50,7 +51,7 @@ function App() {
     if (localStorage.getItem("todos") === null) {
       localStorage.setItem("todos", JSON.stringify([]));
     } else {
-      let todoLocal = JSON.parse(localStorage.getItem("todos"))
+      let todoLocal = JSON.parse(localStorage.getItem("todos"));
       setTodos(todoLocal);
     }
   };
